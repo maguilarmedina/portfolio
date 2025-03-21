@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Portfolio de Mario Aguilar</title>
+    <link>https://maguilarmedina.github.io/portfolio/</link>
+    <description>Portfolio profesional de Mario Aguilar</description>
+    <category>educación y informática</category>
+    <copyright>24 - 25 Mario Aguilar</copyright>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 20 Mar 2025 12:15:00 +0100</lastBuildDate>
+    <webMaster>agsima_aliesma20@iesmedinaazahara.es</webMaster>
+
+    <item>
+      <title>Primeros pasos sobre python</title>
+      <description>Fundamentos del lenguaje de programación Python</description>
+      <link>https://maguilarmedina.github.io/portfolio/paginas/articulosprog.html</link>
+      <author>agsima_aliesma20@iesmedinaazahara.es</author>
+      <category>Programación</category>
+      <pubDate>Wed, 20 Mar 2024 12:30:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Primeros pasos sobre C#</title>
+      <description>Fundamentos sobre C#</description>
+      <link>https://maguilarmedina.github.io/portfolio/paginas/articulosprog.html</link>
+      <author>agsima_aliesma20@iesmedinaazahara.es</author>
+      <category>programación</category>
+      <pubDate>Wed, 20 Mar 2025 12:35:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Normalización de base de datos</title>
+      <description>Aprendiendo sobre la normalización de las bases de datos</description>
+      <link>https://maguilarmedina.github.io/portfolio/paginas/articulosbdd.html</link>
+      <author>agsima_aliesma20@agsima_aliesma20.es</author>
+      <category>Base de datos</category>
+      <pubDate>Wed, 20 Mar 2025 12:40:00 +0100</pubDate>
+    </item>
+
+  </channel>
+</rss>

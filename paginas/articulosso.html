@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio de Mario Aguilar Sierra - Sistemas operativos</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="icon" href="../recursos/img/favicon.png" type="image/png">
+    <link rel="icon" href="../recursos/img/favicon.png" type="image/png">
+</head>
+<body>
+
+    <header>
+        <div class="apartado1">
+            <div class="izquierda">
+                <img src="../recursos/img/fotoperfil.jpg" class="imagenapartado1">
+                <div class="textosa1">
+                    <h1 class="textoapartado1">Mario Aguilar Sierra</h1>
+                    <h1 class="subtituloapartado1">agsima_aliesma20@iesmedinaazahara.es</h1>
+                </div>
+            </div>
+            <div class="derecha">
+                <a href="https://es.linkedin.com/">
+                    <img class="redesapartado1" src="../recursos/img/svg/linkedin.svg">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img class="redesapartado1" src="../recursos/img/svg/instagram.svg">
+                </a>
+                <a href="https://x.com/?lang=es">
+                    <img class="redesapartado1" src="../recursos/img/svg/twitter.svg">
+                </a>
+            </div>
+        </div>
+
+        <div class="apartado2">
+            <nav class="navbar">
+                <a href="../index.html">
+                    <div>
+                        <h1>Inicio</h1>
+                    </div>
+                </a>
+                <a href="../index.html">
+                    <div>
+                        <h1>Secciones</h1>
+                    </div>
+                </a>
+                <a href="../paginas/biografia.html">
+                    <div>
+                        <h1>Sobre mí</h1>
+                    </div>
+                </a>
+                <a href="../paginas/contacto.html">
+                    <div>
+                        <h1>Contacto</h1>
+                    </div>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="contenido">
+        <div class="bloque lateral"></div>
+
+        <div class="bloque centro">
+            <article>
+                <a href="../paginas/articulosso.html">
+                    <h1 class="articuloblogtitulo">Instalando Arch Linux</h1>
+                    <h2 class="articuloblogtema">Sistemas operativos</h2>
+                </a>
+                <h2 class="articuloblogfecha">2 de febrero 2025</h2>
+                <div class="contenidoarticulo">
+                    <div class="articulotexto">
+                        <p>
+                            Muchos dicen que instalar Arch Linux es muy complicado, pero con tener mínimos conocimientos de informática, se vuelve
+                            una tarea muy fácil. Aunque no quita que al principio sea muy confuso.
+                            <br><span class="sangria">Primero hay que instalar la imagen desde la página oficial. Yo voy a instalarlo en VirtualBox.
+                            Para más comodidad, lo voy a usar con una red puente, para poder instalarlo con ssh. Una vez cargado y la interfaz de comandos,
+                            usamos service start sshd y podremos conectarnos a su ip (ip addr show para ver su ip).
+                            <br><span class="sangria">Luego, ejecutamos el comando archinstall y nos saldrá un menú con el que podremos elegir, de forma simplificada,
+                            las características de la instalación, como el nombre, el entorno gráfico (yo elijo GNOME), particiones, etc.
+                            Una vez terminado de configurar y se haya instalado, tendremos que reiniciar con exit, umount -a y reboot.
+                            <br><span class="sangria">Una vez instalado, puede que la interfaz estén caídas ip addr show, sudo ip addr add ip/máscara nombredeinterfaz,
+                            sudo ip link set nombreinterfaz up/down (up para activarla) y sudo ip route add default via gateway dev nombreinterfaz.
+                            <br><span class="sangria">Para instalar un paquete, en vez de usar apt como se haría normalmente en Linux, se hace con sudo pacman -S .
+                            </p>
+                    </div>
+                    <div class="imagenarticulo">
+                        <img src="../recursos/img/archlinux.jpg">
+                    </div>
+                </div>
+            </article>
+
+            <h1 class="gridtitulo" id="secciones">Secciones</h1>
+            <div class="gridart">
+                <a href="../paginas/articulosso.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/isop.jpg">
+                        <p class="gridp">Sistemas operativos</p>
+                    </div>
+                </a>
+                <a href="../paginas/articulossi.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/sinf.jpg">
+                        <p class="gridp">Seguridad informática</p>
+                    </div>
+                </a>
+                <a href="../paginas/articulosprog.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/prog.jpg">
+                        <p class="gridp">Programación</p>
+                    </div>
+                </a>
+                <a href="../paginas/articulosredes.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/redes.jpg">
+                        <p class="gridp">Redes</p></div>
+                </a>
+                <a href="../paginas/articulosbdd.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/gbd.jpg">
+                        <p class="gridp">Base de datos</p>
+                    </div>
+                </a>
+                <a href="../paginas/articuloshw.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/hardware.jpg">
+                        <p class="gridp">Hardware</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="bloque lateral"></div>
+    </div>
+
+    <footer>
+        <div class="izquierdafooter">
+            <h1>© 2024-2025 Copyright - Porfolio Mario Aguilar Sierra</h1>
+        </div>
+        <div class="derechafooter">
+            <a href="https://es.linkedin.com/">
+                <img class="redesfooter" src="../recursos/img/svg/linkedin.svg">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img class="redesfooter" src="../recursos/img/svg/instagram.svg">
+            </a>
+            <a href="https://x.com/?lang=es">
+                <img class="redesfooter" src="../recursos/img/svg/twitter.svg">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

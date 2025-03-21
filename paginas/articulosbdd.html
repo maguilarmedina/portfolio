@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio de Mario Aguilar Sierra - Base de datos</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="icon" href="../recursos/img/favicon.png" type="image/png">
+</head>
+<body>
+
+    <header>
+        <div class="apartado1">
+            <div class="izquierda">
+                <img src="../recursos/img/fotoperfil.jpg" class="imagenapartado1">
+                <div class="textosa1">
+                    <h1 class="textoapartado1">Mario Aguilar Sierra</h1>
+                    <h1 class="subtituloapartado1">agsima_aliesma20@iesmedinaazahara.es</h1>
+                </div>
+            </div>
+            <div class="derecha">
+                <a href="https://es.linkedin.com/">
+                    <img class="redesapartado1" src="../recursos/img/svg/linkedin.svg">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img class="redesapartado1" src="../recursos/img/svg/instagram.svg">
+                </a>
+                <a href="https://x.com/?lang=es">
+                    <img class="redesapartado1" src="../recursos/img/svg/twitter.svg">
+                </a>
+            </div>
+        </div>
+
+        <div class="apartado2">
+            <nav class="navbar">
+                <a href="../index.html">
+                    <div>
+                        <h1>Inicio</h1>
+                    </div>
+                </a>
+                <a href="../index.html">
+                    <div>
+                        <h1>Secciones</h1>
+                    </div>
+                </a>
+                <a href="../paginas/biografia.html">
+                    <div>
+                        <h1>Sobre mí</h1>
+                    </div>
+                </a>
+                <a href="../paginas/contacto.html">
+                    <div>
+                        <h1>Contacto</h1>
+                    </div>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="contenido">
+        <div class="bloque lateral"></div>
+
+        <div class="bloque centro">
+
+            <article>
+                <a href="../paginas/articulosbdd.html">
+                    <h1 class="articuloblogtitulo">Normalización de entidades</h1>
+                    <h2 class="articuloblogtema">Base de datos</h2>
+                </a>
+                <h2 class="articuloblogfecha">22 de noviembre 2024</h2>
+                <div class="contenidoarticulo">
+                    <div class="articulotexto">
+                        <p>
+                            Estos últimos días en clase hemos estado viendo la normalización
+                            de las tablas de base de datos.
+                            <br><span class="sangria">La normalización consiste en la detección y corección de problemas
+                            que suelen surgir de una mala realización del modelo entidad relación, aunque
+                            también pueden salir en tablas bien hechas; por eso se recomienda revisar las
+                            tablas después de terminarlas.
+                            <br><span class="sangria">Para normalizar, primero debemos identificar si una entidad
+                            es dependiente funcional de otra entidad con la pregunta "un x concreto tiene
+                            uno o varios y" (por ejemplo, un gato específico tiene un solo
+                            nombre y no varios. Este en caso gato-específico sí es determinante 
+                            funcional de un nombre (pero no al revés, pues un nombre lo pueden tener
+                            varios gatos.)). Aplicamos esta pregunta a todos los elementos de la tabla,
+                            luego hacemos lo mismo pero por parejas y por último agrupamos de más en más.
+                            <br><span class="sangria">Una vez obtenidas todas las dependencias funcionales,
+                            analizamos cuales cumplen los criterios FNBC, siendo estos los siguientes:
+                            <br><span class="sangria">-Las D.F que lo sean de todos deben ser claves
+                            candidatas,y deben estar en las PK o en su defecto ser UNN. Si pasara al revés,
+                            (es decir, una entidad que es PK o UNN cuando no debería serlo, le quitamos PK o UNN)
+                            <br><span class="sangria">-Si una entidad no es D.F de todos sino de uno o varios, hacemos
+                            una tabla aparte en la que ella es la PK y abajo las otras entidades. Esta estará enlazada
+                            a la tabla original con una FK.
+                            </p>
+                    </div>
+                    <div class="imagenarticulo">
+                        <img src="../recursos/img/normalgbd.jpg">
+                    </div>
+                </div>
+            </article>
+
+            <h1 class="gridtitulo" id="secciones">Secciones</h1>
+            <div class="gridart">
+                <a href="../paginas/articulosso.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/isop.jpg">
+                        <p class="gridp">Sistemas operativos</p>
+                    </div>
+                </a>
+                <a href="../paginas/articulossi.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/sinf.jpg">
+                        <p class="gridp">Seguridad informática</p>
+                    </div>
+                </a>
+                <a href="../paginas/articulosprog.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/prog.jpg">
+                        <p class="gridp">Programación</p>
+                    </div>
+                </a>
+                <a href="../paginas/articulosredes.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/redes.jpg">
+                        <p class="gridp">Redes</p></div>
+                </a>
+                <a href="../paginas/articulosbdd.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/gbd.jpg">
+                        <p class="gridp">Base de datos</p>
+                    </div>
+                </a>
+                <a href="../paginas/articuloshw.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/hardware.jpg">
+                        <p class="gridp">Hardware</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="bloque lateral"></div>
+    </div>
+
+    <footer>
+        <div class="izquierdafooter">
+            <h1>© 2024-2025 Copyright - Porfolio Mario Aguilar Sierra</h1>
+        </div>
+        <div class="derechafooter">
+            <a href="https://es.linkedin.com/">
+                <img class="redesfooter" src="../recursos/img/svg/linkedin.svg">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img class="redesfooter" src="../recursos/img/svg/instagram.svg">
+            </a>
+            <a href="https://x.com/?lang=es">
+                <img class="redesfooter" src="../recursos/img/svg/twitter.svg">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

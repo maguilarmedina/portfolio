@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio de Mario Aguilar Sierra - Programación</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="icon" href="../recursos/img/favicon.png" type="image/png">
+</head>
+<body>
+
+    <header>
+        <div class="apartado1">
+            <div class="izquierda">
+                <img src="../recursos/img/fotoperfil.jpg" class="imagenapartado1">
+                <div class="textosa1">
+                    <h1 class="textoapartado1">Mario Aguilar Sierra</h1>
+                    <h1 class="subtituloapartado1">agsima_aliesma20@iesmedinaazahara.es</h1>
+                </div>
+            </div>
+            <div class="derecha">
+                <a href="https://es.linkedin.com/">
+                    <img class="redesapartado1" src="../recursos/img/svg/linkedin.svg">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img class="redesapartado1" src="../recursos/img/svg/instagram.svg">
+                </a>
+                <a href="https://x.com/?lang=es">
+                    <img class="redesapartado1" src="../recursos/img/svg/twitter.svg">
+                </a>
+            </div>
+        </div>
+
+        <div class="apartado2">
+            <nav class="navbar">
+                <a href="../index.html">
+                    <div>
+                        <h1>Inicio</h1>
+                    </div>
+                </a>
+                <a href="../index.html">
+                    <div>
+                        <h1>Secciones</h1>
+                    </div>
+                </a>
+                <a href="../paginas/biografia.html">
+                    <div>
+                        <h1>Sobre mí</h1>
+                    </div>
+                </a>
+                <a href="../paginas/contacto.html">
+                    <div>
+                        <h1>Contacto</h1>
+                    </div>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="contenido">
+        <div class="bloque lateral"></div>
+
+        <div class="bloque centro">
+            <article class="primerarticulo">
+                <a href="../paginas/articulosprog.html">
+                    <h1 class="articuloblogtitulo">Primeros pasos sobre Python</h1>
+                    <h2 class="articuloblogtema">Programación</h2>
+                </a>
+                <h2 class="articuloblogfecha">4 de enero 2025</h2>
+
+                <div class="contenidoarticulo">
+                    <div class="articulotexto">
+                        <p>
+                            Primero de todo, tenemos que elegir un editor de texto plano. En mi caso,
+                            yo uso Visual Studio Code. Python es el lenguaje de programación más fácil
+                            para empezar, así que aquí dejo lo más básico de él.
+                            <br><span class="sangria">La extensión del archivo python es .py, y es necesario
+                                descargar el lenguaje, desde su página oficial. Una vez instalado, ya podremos
+                                empezar a programar. Lo más común es empezar creando un archivo que muestre por 
+                                la pantalla "Hola mundo". Para hacer esto en python, simplemente es con la línea
+                                  print("Hola mundo") . Ahora, ejecutamos el archivo python (sin tener que compilarlo)
+                                  o desde el propio Visual Studio, arriba a la derecha, donde sale para ejecutarlo.
+                            <br><span class="sangria"> print("") sirve para mostrar texto por pantalla. Las variables
+                                sirven para almacenar un texto, número, etc. También podemos usarlo para preguntarle
+                                al usuario algo y que lo almacene, ya sea para mostrarlo por la pantalla, sumarlo a algo, etc.
+                                En este caso, podríamos hacerlo con variable1=input("Introduce la variable: ") ; tendremos que introducir
+                                un valor y se guardará en la variable variable1.
+                            <br><span class="sangria">
+                            <br><span class="sangria"> Hay varios tipos de datos: numéricos (int), texto (string), bool (verdadero/falso),
+                                float para números con decimales. Para sumar, restar, multiplicar y dividir números se hace con +, -, * y /. 
+                        </p>
+                    </div>
+                    <div class="imagenarticulo">
+                        <img src="../recursos/img/Python.jpg">
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <a href="../paginas/articulosprog.html">
+                    <h1 class="articuloblogtitulo">Primeros pasos sobre C#</h1>
+                    <h2 class="articuloblogtema">Programación</h2>
+                </a>
+                <h2 class="articuloblogfecha">19 de marzo 2025</h2>
+                <div class="contenidoarticulo">
+                    <div class="articulotexto">
+                        <p>
+                            C# es un lenguaje de programación orientado a objetos. Esto significa que 
+                            está diseñado para basar el código en objetos y clases, para una mejor
+                            organización.
+                            <br><span class="sangria">Lo primero de todo es instalar C#, desde la página oficial.
+                            La instalación cambia si lo instalamos en Windows o en alguna distribución de Linux.
+                            En linux, tenemos que ejecutar apt install mono-complete y darle permisos con chmod +x.
+                            Después, ejecutamos msc -out:fichero.exe fichero.cs. Lo ejecutamos con mono fichero.exe. Ya estaría instalado.
+                            <br><span class="sangria">Yo voy a usar Visual Studio Code. Los ficheros c# tienen la extensión .cs . La estructura
+                            básica sería la siguiente:
+                            <br><span class="sangria">using System;
+                            <br><span class="sangria">class HelloWorld
+                            <br><span class="sangria">{
+                            <br><span class="sangria">.....static void Main(string[] args)
+                            <br><span class="sangria">.....{
+                            <br><span class="sangria">..........string mistring = "Hola mundo";
+                            <br><span class="sangria">..........Console.WriteLine(mistring);
+                            <br><span class="sangria">.....}
+                            <br><span class="sangria">}
+                            <br><span class="sangria">Con esto, guardaríamos una variable que contiene "Hola mundo" y la mostraríamos por pantalla. WriteLine sirve
+                            para mostrar una variable o un tipo de dato por pantalla. Luego tendríamos que recompilarlo para ejecutarlo y transformarlo en un fichero.exe.
+                            <br><span class="sangria">En windows, tendrías que poner la ruta entera donde está descargado C# y usar csc archivo.cs. Recomiendo bastante guardar
+                            la ruta de C# en una variable de windows para usarlo más facilmente.
+                        </p>
+                    </div>
+                    <div class="imagenarticulo">
+                        <img src="../recursos/img/c.jpg">
+                    </div>
+                </div>
+            </article>
+
+            <h1 class="gridtitulo" id="secciones">Secciones</h1>
+            <div class="gridart">
+                <a href="../paginas/articulosso.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/isop.jpg">
+                        <p class="gridp">Sistemas operativos</p>
+                    </div>
+                </a>
+                <a href="../paginas/articulossi.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/sinf.jpg">
+                        <p class="gridp">Seguridad informática</p>
+                    </div>
+                </a>
+                <a href="../paginas/articulosprog.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/prog.jpg">
+                        <p class="gridp">Programación</p>
+                    </div>
+                </a>
+                <a href="../paginas/articulosredes.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/redes.jpg">
+                        <p class="gridp">Redes</p></div>
+                </a>
+                <a href="../paginas/articulosbdd.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/gbd.jpg">
+                        <p class="gridp">Base de datos</p>
+                    </div>
+                </a>
+                <a href="../paginas/articuloshw.html">
+                    <div class="gridcuadro">
+                        <img class="gridimg" src="../recursos/img/hardware.jpg">
+                        <p class="gridp">Hardware</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="bloque lateral"></div>
+    </div>
+
+    <footer>
+        <div class="izquierdafooter">
+            <h1>© 2024-2025 Copyright - Porfolio Mario Aguilar Sierra</h1>
+        </div>
+        <div class="derechafooter">
+            <a href="https://es.linkedin.com/">
+                <img class="redesfooter" src="../recursos/img/svg/linkedin.svg">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img class="redesfooter" src="../recursos/img/svg/instagram.svg">
+            </a>
+            <a href="https://x.com/?lang=es">
+                <img class="redesfooter" src="../recursos/img/svg/twitter.svg">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

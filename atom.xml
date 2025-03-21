@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Portfolio de Mario Aguilar</title>
+    <link href="https://maguilarmedina.github.io/portfolio/" rel="self"/>
+    <link href="https://maguilarmedina.github.io/portfolio/"/>
+    <updated>2025-03-20T11:15:00Z</updated>
+    <author>
+        <name>Mario Aguilar</name>
+        <email>agsima_aliesma20@iesmedinaazahara.es</email>
+    </author>
+    <id>https://maguilarmedina.github.io/portfolio/</id>
+    <rights>24 - 25 Mario Aguilar</rights>
+    <category term="educación y informática"/>
+
+    <entry>
+        <title>Primeros pasos sobre Python</title>
+        <link href="https://maguilarmedina.github.io/portfolio/paginas/articulosprog.html"/>
+        <id>https://maguilarmedina.github.io/portfolio/paginas/articulosprog.html</id>
+        <updated>2024-03-20T11:30:00Z</updated>
+        <summary>Fundamentos del lenguaje de programación Python</summary>
+        <author>
+            <name>Mario Aguilar</name>
+            <email>agsima_aliesma20@iesmedinaazahara.es</email>
+        </author>
+        <category term="Programación"/>
+    </entry>
+
+    <entry>
+        <title>Primeros pasos sobre C#</title>
+        <link href="https://maguilarmedina.github.io/portfolio/paginas/articulosprog.html"/>
+        <id>https://maguilarmedina.github.io/portfolio/paginas/articulosprog.html</id>
+        <updated>2025-03-20T11:35:00Z</updated>
+        <summary>Fundamentos sobre C#</summary>
+        <author>
+            <name>Mario Aguilar</name>
+            <email>agsima_aliesma20@iesmedinaazahara.es</email>
+        </author>
+        <category term="Programación"/>
+    </entry>
+
+    <entry>
+        <title>Normalización de base de datos</title>
+        <link href="https://maguilarmedina.github.io/portfolio/paginas/articulosbdd.html"/>
+        <id>https://maguilarmedina.github.io/portfolio/paginas/articulosbdd.html</id>
+        <updated>2025-03-20T11:40:00Z</updated>
+        <summary>Aprendiendo sobre la normalización de las bases de datos</summary>
+        <author>
+            <name>Mario Aguilar</name>
+            <email>agsima_aliesma20@iesmedinaazahara.es</email>
+        </author>
+        <category term="Base de datos"/>
+    </entry>
+
+</feed>
